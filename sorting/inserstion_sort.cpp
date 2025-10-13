@@ -8,6 +8,16 @@ using namespace std;
 // TC -> O(n^2)
 // SC -> O(1)
 
+/*
+
+What is the thinking process going to be is 
+1> we will consider the element at 0Th position is already sorted
+2> Inner loop will go from i + i -> arr.size where i goes from 0 -> arr.size() 
+3> for the first iteration the j loop will the smallest element in the array and swap it with the first position if found!
+
+
+*/
+
 int main(){
 
     vector<int> arr = {2,5,1,6,3,66,8,10};
