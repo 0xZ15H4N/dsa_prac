@@ -10,6 +10,7 @@ int main(){
     int carry = 0;
     int size1 = arr1.size()-1;
     int size2 = arr2.size()-1;
+    
     while(size1>=0 && size2>=0){
         int sum = arr1[size1] + arr2[size2] + carry;
         carry = sum / 10;

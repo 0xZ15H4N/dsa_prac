@@ -8,7 +8,7 @@ int main(){
     int rot = 4;
     vector<int> temp(arr.size());
     for(int i = 0; i <arr.size();i++){
-        temp[(i+rot)%arr.size()] =arr[i];
+        temp[(i+rot)%arr.size()] = arr[i];
     }
     arr = temp;
     for(auto i : arr){
