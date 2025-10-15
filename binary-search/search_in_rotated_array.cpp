@@ -22,7 +22,7 @@ int main(){
 
 // condition if target is in the second split of the array
 
-    if((arr[start] < target) && (arr[arr.size() - 1] > target)){
+    if((arr[start] <= target) && (arr[arr.size() - 1] >= target)){ 
         end = arr.size() -1;
         while(start <= end){
             int mid = start + (end-start)/2;

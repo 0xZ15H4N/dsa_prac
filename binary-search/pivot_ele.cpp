@@ -9,7 +9,7 @@ int main(){
     int end = arr.size() - 1;
     while(start < end){
         int mid = start + (end - start)/2;
-        if(arr[mid] >=arr[0]){
+        if(arr[mid] >= arr[0]){
             start = mid +1;
         }else{
             end = mid;
