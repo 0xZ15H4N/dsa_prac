@@ -19,7 +19,6 @@ int main(){
         }
     } 
     double factor = 1;
-    double temp = ans;
     for(int i = 0;i < 3; i++){
         factor = factor / 10;
         for(double j = ans ; j*j< n;j= j + factor){
