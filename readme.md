@@ -2,9 +2,9 @@
 # array
 # 2d array
 # char strings
-# pointer        @ here right now!
+# pointer        
 # double pointer
-# recursion
+# recursion         @ here right now!
 # sorting
 # linked list 
 # doubly , circular linked list
