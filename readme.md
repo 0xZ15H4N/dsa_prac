@@ -4,8 +4,8 @@
 # char strings
 # pointer        
 # double pointer
-# recursion         @ here right now!
 # sorting
+# recursion         @ here right now!
 # linked list 
 # doubly , circular linked list
 # stack
