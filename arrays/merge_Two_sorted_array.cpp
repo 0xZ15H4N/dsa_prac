@@ -27,10 +27,10 @@ int main(){
     vector<int> arr3(p);
     
     while(m<i && k <j){
-        if(arr1[m] < arr2[k]){ // here arr1 has the bigger element 
+        if(arr1[m] < arr2[k]){ // here arr2 has the smaller element 
             arr3[l++] = arr1[m++];
         }else{
-            arr3[l++] = arr2[k++];  // if arr2 have a bigger element
+            arr3[l++] = arr2[k++];  // if arr1 have a bigger element
         }
     }
     while(m < i ){
