@@ -5,9 +5,8 @@
 # pointer        
 # double pointer
 # sorting
-# recursion         @ here right now!
-# linked list 
-# doubly , circular linked list
+# recursion         
+# linked list(doubly , circular linked list included) @ here right now!
 # stack
 # queue
 # binary search tree
