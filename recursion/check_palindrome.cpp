@@ -20,9 +20,7 @@ bool check_palindrome(string str,int i ,int j){
         j--;
     }
     if(str[i] == str[j]){
-        i++;
-        j--;
-        return check_palindrome(str,i,j);
+        return check_palindrome(str,++i,--j);
     }
     else{
         return false;
