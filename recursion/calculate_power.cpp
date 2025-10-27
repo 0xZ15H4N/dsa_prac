@@ -3,9 +3,9 @@
 using namespace std;
 /*
 
-
 In this we will calculate the power 
 for that i will take a number and the power of it and i will recursively multiply by it util the power become 
+
 
 
 */
@@ -22,9 +22,6 @@ int power(int i,int j){
 int main(){
 
     cout<<power(2,10);
-
-
-
 
     return 0;
 }
