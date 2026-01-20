@@ -2,13 +2,19 @@
 #include<vector>
 using namespace std;
 
+/* 
+
+to check whether it is sorted and rotated
+
+*/
+
 int main(){
 
     vector<int>arr = {7,8,9,1,2,3,4,5,6};
 
     int count = 0;
     for(int i = 0;i<arr.size()-1;i++){
-        if(arr[i]> arr[i+1]){
+        if(arr[i] > arr[i+1]){
             count ++ ;
         }
     }

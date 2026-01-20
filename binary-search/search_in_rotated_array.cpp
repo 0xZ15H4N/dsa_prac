@@ -37,7 +37,7 @@ int main(){
         }
     }else{ // else if the target is in first split of the array
         start = 0;
-        end = end - 1;
+        end = end - 1; // cause we already have end = mid while finding the pivot
         while(start <= end){
             int mid = start + (end-start)/2;
             if(arr[mid] == target){

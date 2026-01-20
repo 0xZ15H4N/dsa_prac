@@ -16,9 +16,9 @@
                                 exclude 1/                                         \  include
                         second call    {1,2,3} {}                                  {1,2,3}      ,    {1}  idx = 1
                                     exld    /     \ incl                        exl  /                 \ incl
-                       third call {1,2,3} {}       {1,2,3} {2}                     {1,2,3} {1}            {1,2,3}        {1,2}  idx = 2
-                                ex /      \in      ex  /    \in                     ex /     \in          ex  /           \in
-                fourth call {1,2,3} "{}" {1,2,3} "{3}"|{1,2,3} "{2}" {1,2,3} "{2,3}" | {1,2,3} "{1}"   {1,2,3} "{1,3}" | {1,2,3} "{1,2}" {1,2,3} "{1,2,3}"
+                       third call {1,2,3} {}       {1,2,3} {2}                     {1,2,3} {1}                     {1,2,3}       {1,2}  idx = 2
+                                ex /      \in      ex  /    \in                     ex /     \in                ex  /               \in
+        fourth call {1,2,3} "{}" {1,2,3} "{3}"|{1,2,3} "{2}" {1,2,3} "{2,3}" | {1,2,3} "{1}"   {1,2,3} "{1,3}" | {1,2,3} "{1,2}"  {1,2,3} "{1,2,3}"
                             return       return        return     return       return           return         return        return           
  "" are the answer and we need to push back it in the 2D array
 */

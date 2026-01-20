@@ -24,7 +24,7 @@ int main(){
 
     for(int i = 1;i<arr.size() - 1; i++){
         int temp = arr[i];  // compare element store
-        int j = i -1 ;      // initialised outside
+        int j = i -1;      // initialised outside
         for( ;j>=0;j--){
             if(arr[j] > temp){  // back comparing the temp stored element
                 arr[j+1] = arr[j];

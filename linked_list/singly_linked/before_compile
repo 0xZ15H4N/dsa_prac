@@ -1,0 +1,2 @@
+to compile the code with header file 
+g++ <fileName.cpp> linkedlist.cpp -o <fileName.exe>

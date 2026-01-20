@@ -9,6 +9,8 @@ using namespace std;
 
 this is a simple approach we just iterate through both arry simutaneouly using the while loop and check if the arr1[m] >< arr2[k] 
 and then increament as follows
+space complexity : o(n+m)
+time complexity  : 
 
 */
 
@@ -21,7 +23,7 @@ int main(){
     int j = arr2.size();
     int p = i + j;
     
-    int m =  0;
+    int m = 0;
     int k = 0;
     int l = 0;
     vector<int> arr3(p);
@@ -33,11 +35,11 @@ int main(){
             arr3[l++] = arr2[k++];  // if arr1 have a bigger element
         }
     }
-    while(m < i ){
+    while(m < i ){ // if the elements in the array first is more
         arr3[l++] = arr1[m++];
     }
 
-    while(k < j){
+    while(k < j){  // if the elements in the array second is more
         arr3[l++] = arr2[k++];
 
     }
