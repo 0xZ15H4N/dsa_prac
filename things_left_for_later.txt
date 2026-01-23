@@ -5,3 +5,6 @@ stack
     -> N stack
     -> Special stack
 Queue (complete)
+
+binary tree 
+    -> same tree
