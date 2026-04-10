@@ -2,6 +2,9 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// sliding window problem
+
+
 class Solution {
 private:
     bool checkequal(vector<int>arr1,vector<int>arr2){
