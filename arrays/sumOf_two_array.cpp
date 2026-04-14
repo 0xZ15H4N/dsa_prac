@@ -33,7 +33,7 @@ int main(){
         arr3.push_back(sum);
         size2--;
     }
-    while(carry !=0){
+    while(carry > 0){
         int sum = carry;
         carry = sum /10;
         sum = sum % 10;

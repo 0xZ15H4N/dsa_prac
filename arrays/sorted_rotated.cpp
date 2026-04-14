@@ -14,11 +14,11 @@ int main(){
 
     int count = 0;
     for(int i = 0;i<arr.size()-1;i++){
-        if(arr[i] > arr[i+1]){
+        if(arr[i] > arr[i+1]){ // this checks for the sorted behaivour
             count ++ ;
         }
     }
-    if(arr[0] < arr[arr.size()-1]){
+    if(arr[0] < arr[arr.size()-1]){ // this condtion check for rotate 
         count++;
     }
     if(count == 1){

@@ -16,16 +16,13 @@ int main(){
     }
     return 0;
 }
-/*
 
+/*
 ✅ In-place Rotation (O(1) space)
 
 For rotating right by rot:
-
 Reverse the whole array
-
 Reverse the first rot elements
-
 Reverse the remaining n - rot elements
 
 
@@ -49,5 +46,4 @@ int main() {
     
     return 0;
 }
-
 */

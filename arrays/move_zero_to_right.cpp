@@ -3,11 +3,9 @@
 using namespace std;
 
 /*
-
 what we are doing here is moving a pointer along the array and 
 if non zero is found we replace the is replace with position the pointer is pointing to
 i.e. place where zero is 
-
 */
 
 
