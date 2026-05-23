@@ -29,12 +29,9 @@ void delete_node(Node* &head,int pos){
         return;
     } //deletion at head
     
-   else{
-
     Node* curr= head;
     Node* prev = NULL;
     int cnt = 1;
-
     while(cnt < pos){
         prev = curr ;
         curr = curr->next;
@@ -43,7 +40,7 @@ void delete_node(Node* &head,int pos){
     // deletion at middle or tail
     prev ->next = curr->next;
     delete curr;
-   }
+    return;
 }
 
 void print(Node* head) {

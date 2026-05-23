@@ -13,7 +13,7 @@ for example
 
 
         here 0 knows 1
-             1 knows no-One cause 
+             1 knows no-One cause celeb
              2 knows 1
 
 
@@ -42,34 +42,27 @@ int find_the_celeb(stack<int>&stk,vector<vector<int>>&matrix)
         else{
             stk.push(B);
         }
-    }
+    } 
     // if we are out of this loop 
     int pCeleb = stk.top();
     bool col = true;
-    bool row = true;
+ 
     // checking for column 
     for(int i = 0; i < matrix[0].size();i++){
         if(i == pCeleb){
             continue;
         }
         if(matrix[i][pCeleb] ==  0){
-            col = false;
-            break;
+            return -1;
         }
     }
     for(int i = 0; i < matrix[0].size();i++){
         if(matrix[pCeleb][i] ==  1){
-            row = false;
-            break;
+            return -1;
         }
     }
 
-    if(col && row){
-        return pCeleb;
-    }else{
-        return -1;
-    }
-
+    return pCeleb;
 }
 
 

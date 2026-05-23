@@ -42,7 +42,7 @@ void print(Node* &head){
 }
 
 void merge_LL(Node* &head1, Node* &head2){
-    // we will account for head1->data is always greater or equals to head2->data
+    // we will account for head1->data is always less or equals to head2->data
     if(head1->next ==nullptr){
         head1->next = head2;
     }

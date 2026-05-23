@@ -29,7 +29,7 @@ Node* reverse(Node*head){
     Node* addTwoNumbers(Node* l1, Node* l2) {
         int carry = 0;
         int sum = 0;
-        Node* total = new Node(0); // dummy node
+        Node* total = new Node(0); // dummy node 
         while(l1!=nullptr && l2!=nullptr){
             sum = l1->data + l2->data + carry;
             carry = sum / 10;
@@ -66,3 +66,4 @@ Node* reverse(Node*head){
             temp->next = next;
         }
         return reverse(total->next);
+    }

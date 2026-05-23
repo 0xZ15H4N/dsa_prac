@@ -30,7 +30,7 @@ vector<int> prevSmallerElement(vector<int>&heights,int size){
     vector<int>indexs(size);
     stack<int>s;
     s.push(-1);
-    for(int i = 0;i<size;i++){
+    for(int i = 0;i<size;i++){   
         int curr = heights[i];
         while(s.top()!= -1 && heights[s.top()]>=curr){
             s.pop();

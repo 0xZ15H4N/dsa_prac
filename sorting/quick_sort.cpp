@@ -40,7 +40,7 @@ int partition(int *arr,int start,int end){
        while(arr[i] < pivot_element){
         i++;
        }
-       while(arr[j] > pivot_element){
+       while(arr[j] dSSSSSSSSSSSSSS> pivot_element){
         j--;
        }
 

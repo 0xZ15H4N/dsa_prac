@@ -31,7 +31,7 @@ int getLength(Node*forward){
 
 Node* reverse_K_grp(Node* &head,int k){
 
-    if(head== nullptr){
+    if(head == nullptr){
         return head;
     }
 

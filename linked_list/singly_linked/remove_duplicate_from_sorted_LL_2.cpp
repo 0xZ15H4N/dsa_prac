@@ -10,6 +10,7 @@ with the help of two pointer
 1 5 6 7 9
 
 to remove all the repeated elements with the one that is first occur in the repeated one.
+only keeping the non repeated node (not a single time repeated)
 in hashmap we will save prev , next to the curr
 unordered_map<int data,pair<Node*prev,Node*next>> lst;
 
@@ -58,7 +59,7 @@ void remove_duplicate(Node*&head){
         Node* prev = temp;
         while (curr != nullptr) {
             bool is_dup = false;
-            while (curr->next and curr->data == curr->next->data) {
+            while (curr->next && curr->data == curr->next->data) {
                 is_dup = true;
                 curr = curr->next;
             }

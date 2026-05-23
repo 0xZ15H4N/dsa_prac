@@ -53,39 +53,39 @@ void insert_at_tail(Node * &tail,int data){
     tail = temp;
 }
 
-void split_cll(Node* &head,Node*&head1,Node *&head2){
-    Node* slow = head;
-    Node* fast = head;
-    while(fast && fast->next){
-        slow = slow->next;
-        fast = fast->next->next;
-        if(slow==fast){break;}
-    }
-    head1 = head;
+void split_cll(Node* &head, Node*& head1, Node*& head2) {
+    if (!head) return;
+
+    // count nodes
     int cnt = 1;
-    while(slow->next!=fast){
-        // here we will count all the nodes in the CLL
+    Node* temp = head;
+    while (temp->next != head) {
         cnt++;
-        slow  = slow->next;
+        temp = temp->next;
     }
-    int mid = cnt/2;
-    int cnt1 = 0;
-    while(cnt1!=mid){
-        slow = slow->next;
-        cnt1++;
+
+    int mid = cnt / 2;
+
+    // move to mid node
+    temp = head;
+    for (int i = 1; i < mid; i++) {
+        temp = temp->next;
     }
-    fast = slow->next;
-    slow->next = nullptr;
-    print(head1);
-    slow->next = head1;
-    head2 = fast;
-    while(cnt1!=cnt){
-        fast = fast->next;
-        cnt1++;
+
+    head1 = head;
+    head2 = temp->next;
+
+    // close first CLL
+    temp->next = head1;
+
+    // move to last node of second half
+    Node* last = head2;
+    while (last->next != head) {
+        last = last->next;
     }
-    fast->next = nullptr;
-    print(head2);
-    fast->next = head2;
+
+    // close second CLL
+    last->next = head2;
 }
 
 

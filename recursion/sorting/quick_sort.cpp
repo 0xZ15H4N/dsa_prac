@@ -3,17 +3,15 @@
 using namespace std;
 /*
 
-
 in quick sort we first take a pivot from the array usually 0th indx element then count all the elements smaller than it
 and move the pivot element to its correct spot using 0(pivot idx) + count ,after that we need to make sure that 
 element in the left of the pivot  is smaller and elements in the right is bigger
- 
++
 the condition should be like this [a>] a [<a]
 after that it returns the new pivot element idx and we recall the quick sort fnc from (s,p-1),(p+1,e)
 
 worst case complexity is O(n^2)
 average case and best case complexity is O(nlogn)
-
 
 */
 

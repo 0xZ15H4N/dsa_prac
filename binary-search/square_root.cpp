@@ -1,4 +1,5 @@
 #include<iostream>
+#include<iomanip>
 using namespace std;
 
 int main(){
@@ -19,11 +20,12 @@ int main(){
         }
     } 
     double factor = 1;
-    for(int i = 0;i < 3; i++){
+    for(int i = 0;i < 15; i++){
         factor = factor / 10;
         for(double j = ans ; j*j< n;j= j + factor){
             ans = j;
         }
     }
+    cout << fixed << setprecision(200);
     cout<<"The sqrt of the "<<n<<" is "<<ans;
 }

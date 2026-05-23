@@ -4,7 +4,7 @@ using namespace std;
 
 
 void solve(vector<vector<int>>&maze,vector<vector<int>>&visited,vector<string>&ans,string output,int x, int y){
-    
+    //base case // win
     if((x==maze.size()-1) && (y==maze.size()-1)){
         ans.push_back(output);
         return;
@@ -27,7 +27,7 @@ void solve(vector<vector<int>>&maze,vector<vector<int>>&visited,vector<string>&a
     if((y+1 <= maze.size()-1) && (maze[x][y+1] == 1) && (visited[x][y+1] == 0)){
         output.push_back('R');
         solve(maze,visited,ans,output,x,y+1);
-        output.pop_back();
+        output.pop_back(); //backtracking
     }
 
     // left
@@ -36,7 +36,7 @@ void solve(vector<vector<int>>&maze,vector<vector<int>>&visited,vector<string>&a
         solve(maze,visited,ans,output,x,y-1);
         output.pop_back();
     }
-    visited[x][y] = 0;
+    visited[x][y] = 0; //backtracking
 
 }
   

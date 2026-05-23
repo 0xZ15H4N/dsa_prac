@@ -46,8 +46,8 @@ void insert_at_tail(Node*&tail,int data){
 
 void remove_duplicate(Node*&head){
     unordered_map<int , bool>lst;
-    Node*prev = head;
-    Node*curr = head->next;
+    Node*prev = nullptr;
+    Node*curr = head;
     while(curr !=nullptr){
         if(lst.find(curr->data) == lst.end()){
             lst[curr->data] = true;

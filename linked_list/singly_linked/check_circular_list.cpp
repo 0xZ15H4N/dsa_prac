@@ -23,18 +23,6 @@ class Node {
         }
 };
 
-// bool checkCircular(Node* &head){
-//     Node*temp = head->next;
-//     Node*start = head;
-//     while(temp!= start && temp!=nullptr){
-//         temp = temp->next;
-//     }
-//     if(temp==nullptr){
-//         return false;
-//     }else{
-//         return true;
-//     }
-// }
 
 // optimised used to detect the inner loops in a linked list
 bool checkCircular(Node* &head){

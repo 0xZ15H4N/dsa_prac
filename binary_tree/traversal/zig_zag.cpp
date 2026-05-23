@@ -1,19 +1,52 @@
 #include<iostream>
 #include<bits/stdc++.h>
 using namespace std;
-/*
 
+class node{
+    public:
+        int data;
+        node* left;
+        node* right;
 
-Quick-Notes
+        node(int data){
+            this->data = data;
+            this->left = NULL;
+            this->right = nullptr;
+        }
+        ~node(){
+            this->left = nullptr;
+            this->right = nullptr;
+        }
+};
 
+ vector<vector<int>> zigzagLevelOrder(node* root) {
+        vector<vector<int>>result;
+        if(root == NULL){
+            return result;
+        }
+        queue<node *> q;
+        q.push(root);
+        bool leftToRight = true;
+        while(!q.empty()){
+            int size = q.size();
+            vector<int> ans(size);
 
-*/
-int main(){
+            for (int i = 0; i<size; i++){
+                node* frontNode = q.front();
+                q.pop();
 
+                int index = leftToRight ? i : size -i -1;
+                ans[index] = frontNode->data;
 
-
-
-
-
-    return 0;
+                if(frontNode->left){
+                    q.push(frontNode->left);
+                }
+                if(frontNode->right){
+                    q.push(frontNode->right);
+                }
+            }
+            leftToRight = !leftToRight;
+            result.push_back(ans);
+        }
+    return result;
 }

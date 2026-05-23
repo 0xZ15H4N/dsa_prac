@@ -1,11 +1,1 @@
-#include<iostream>
-#include<vector>
-using namespace std;
-
-int main(){
-
-    
-
-
-
-}
+// same as book_allocation problem
