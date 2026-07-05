@@ -2,8 +2,6 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-
-
 // this is  the optimal solution if the arrays contains -ve +ve and zeros
 // TC -> O(n)
 // SC -> O(n)
@@ -31,10 +29,10 @@ int solve(vector<int> arr, int k ){
 //TC -> O(2N)
 // SC -> O(1)
 int solve_opt(vector<int>arr,int k){
-    int len =0;
-    int left =0;
-    int right = 0;
-    int sum =0;
+    int len  = 0;
+    int left = 0;
+    int right= 0;
+    int sum  = 0;
     while(right<arr.size()){
         while(left <=right && sum > k){
             sum -=arr[left];

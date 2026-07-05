@@ -50,7 +50,7 @@ void merge_LL(Node* &head1, Node* &head2){
     Node* curr1 = head1->next;
     Node* curr2 = head2;
     while(curr1!=nullptr && curr2!=nullptr){
-        if((curr2->data>= prev->data) && (curr1->data >= curr2->data)){
+        if((curr2->data >= prev->data) && (curr1->data >= curr2->data)){
             Node*temp = curr2->next;
             prev->next = curr2;
             curr2->next = curr1;
@@ -58,7 +58,7 @@ void merge_LL(Node* &head1, Node* &head2){
             curr2 = temp;
             prev = prev->next;
         }else{
-            prev = prev->next;
+            prev = curr1;
             curr1 = curr1->next;
         }
     }

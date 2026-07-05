@@ -2,17 +2,16 @@
 #include<bits/stdc++.h>
 #include<math.h>
 using namespace std;
+
 /*
-
-
 Given an array of length ‘N', where each element denotes the position of a stall. Now you have
 “N' stalls and an integer 'K’ which denotes the number of cows that are aggressive. To prevent
 the cows from hurting each other, you need to assign the cows to the stalls, such that the
 minimum distance between any two of them is as large as possible. Return the largest
 minimum distance. x
-
-
 */
+
+
 bool ispossible(vector<int>arr,int mid,int k){
     int cowCount = 1;
     int lastpos = arr[0];

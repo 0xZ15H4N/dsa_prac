@@ -9,8 +9,9 @@
 # linked list(doubly , circular linked list included) 
 # stack
 # queue
-# binary search tree  @ here right now!
+# binary search tree
 # heap 
+# trie   @ here right now!
 # backtracking
 # bfs, dfs
 # graphs
