@@ -1,1 +1,2 @@
-hashmap video 
+hashmap video (about the colliion chaining)
+backtrack (three videos)
