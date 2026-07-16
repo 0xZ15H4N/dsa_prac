@@ -11,8 +11,8 @@
 # queue
 # binary search tree
 # heap 
-# trie   @ here right now!
+# trie   
 # backtracking
 # bfs, dfs
-# graphs
+# graphs @ here right now!
 # dp
