@@ -1,0 +1,221 @@
+[33mcommit 104f897abf689d822454518b1ae5c590135eff00[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: zishan <zishanza436@gmail.com>
+Date:   Thu Jul 23 21:57:44 2026 +0530
+
+    graphs revision completed
+
+[33mcommit 940a788081a3dfc1b550c7cf0debd4e0e4c749bb[m
+Author: zishan <zishanza436@gmail.com>
+Date:   Mon Jul 20 20:20:19 2026 +0530
+
+    tlfl updated
+
+[33mcommit e2c21dc93122554e570e6d76a5cbe4143adc1fd8[m
+Author: zishan <zishanza436@gmail.com>
+Date:   Mon Jul 20 20:19:20 2026 +0530
+
+    graphs until mst completed
+
+[33mcommit b5a5d61a0b228808d5407a09def8502065ab4716[m
+Author: zishan <zishanza436@gmail.com>
+Date:   Sun Jul 19 15:46:25 2026 +0530
+
+    topo sort done
+
+[33mcommit 2359baaa06889890630ab4ffd77b88bc9424b9ca[m
+Author: zishan <zishanza436@gmail.com>
+Date:   Sat Jul 18 00:13:47 2026 +0530
+
+    DG question added
+
+[33mcommit 2d98f6dd8058f3d37371975085d3a0443de37c2e[m
+Author: zishan <zishanza436@gmail.com>
+Date:   Fri Jul 17 00:18:43 2026 +0530
+
+    updated the readme.md file
+
+[33mcommit 71bbc0b6e99924ad1a7a0ca99b225c289a3270f2[m
+Author: zishan <zishanza436@gmail.com>
+Date:   Fri Jul 17 00:17:30 2026 +0530
+
+    question added
+
+[33mcommit a1022911f47a5fa3b7effa17f9ad26cdec5a794d[m
+Author: zishan <zishanza436@gmail.com>
+Date:   Wed Jul 15 21:47:09 2026 +0530
+
+    graphs quesiton added
+
+[33mcommit c3a260e620fb746f8fd766fb08b007abfd35b0e6[m
+Author: zishan <zishanza436@gmail.com>
+Date:   Wed Jul 15 00:15:32 2026 +0530
+
+    graphs started
+
+[33mcommit 0689321b4edc115e7a110b368af3bce7be8309dd[m
+Author: zishan <zishanza436@gmail.com>
+Date:   Thu Jul 9 16:07:16 2026 +0530
+
+    updated my tlfl
+
+[33mcommit d9e811408e02bbb2ec8931e36e71d696af025e07[m
+Author: zishan <zishanza436@gmail.com>
+Date:   Sun Jul 5 15:47:46 2026 +0530
+
+    heaps completed
+
+[33mcommit 6330bcddc34c3b8399a1a2b8dc6f40e1add11a70[m
+Author: zishan <zishanza436@gmail.com>
+Date:   Sun May 31 17:04:01 2026 +0530
+
+    programs added
+
+[33mcommit 90bd87c66c8576d33e39b58e0492656c1c84ea7a[m
+Author: zishan <zishanza436@gmail.com>
+Date:   Sat May 23 15:58:19 2026 +0530
+
+    some problems added
+
+[33mcommit fcb46d47e35c80a8a57922ce8acac32417941b93[m
+Author: zishan <zishanza436@gmail.com>
+Date:   Tue Apr 14 14:05:06 2026 +0530
+
+    restructured
+
+[33mcommit b9cd7dd9e0b709e35bb0c38ff08c7a84aa52fa24[m
+Author: zishan <zishanza436@gmail.com>
+Date:   Tue Apr 14 14:04:23 2026 +0530
+
+    recursion completed
+
+[33mcommit 3ef57f537fbdd6cc31887f4956351d507cdb4ced[m
+Author: zishan <zishanza436@gmail.com>
+Date:   Tue Apr 14 14:03:59 2026 +0530
+
+    minor changes
+
+[33mcommit 3d22e2e9aba67fbb1938f415b0959b0e58b302a1[m
+Author: zishan <zishanza436@gmail.com>
+Date:   Tue Apr 14 14:03:28 2026 +0530
+
+    remove dups two pointer approch
+
+[33mcommit 6d16812c81a2a986cee231f03b55f9be58e25db4[m
+Author: zishan <zishanza436@gmail.com>
+Date:   Fri Apr 10 16:13:12 2026 +0530
+
+    Sliding window problem
+
+[33mcommit 177ac573c199493566bfd7cd1474b18eb2927f9a[m
+Author: zishan <zishanza436@gmail.com>
+Date:   Sat Apr 4 23:12:34 2026 +0530
+
+    Two new question in strings added
+
+[33mcommit 75b7b2b64dd94a699c8c3899c211774c59fe7b95[m
+Author: zishan <zishanza436@gmail.com>
+Date:   Fri Apr 3 15:42:21 2026 +0530
+
+    logic updated time complexity reduced from O(n2) to O(n)
+
+[33mcommit 782d3c6e353d43a1b9e0e553407573295d08547b[m
+Author: zishan <zishanza436@gmail.com>
+Date:   Sat Jan 24 02:27:13 2026 +0530
+
+    part -1 bt faang video complete
+
+[33mcommit 24d225a3650d750f907c1d7640abb232c4a81681[m
+Author: zishan <zishanza436@gmail.com>
+Date:   Tue Jan 20 16:29:58 2026 +0530
+
+    readme updated
+
+[33mcommit 6fa119c3f8f5b149adfd9a6918965c87dc85d075[m
+Author: zishan <zishanza436@gmail.com>
+Date:   Tue Jan 20 16:27:04 2026 +0530
+
+    stack completed
+
+[33mcommit 539993ff49bc52c7460ce57635a2f3ad3f42b7cf[m
+Author: zishan <zishanza436@gmail.com>
+Date:   Mon Oct 27 13:59:06 2025 +0530
+
+    minor changes
+
+[33mcommit d2cd7a9a770c8f687f059d7b1af197ca59cc5db9[m
+Author: zishan <zishanza436@gmail.com>
+Date:   Sat Oct 25 14:18:54 2025 +0530
+
+    readme updated
+
+[33mcommit d43923f2ba19f14167ff891ff5f3e33b366061d0[m
+Author: zishan <zishanza436@gmail.com>
+Date:   Sat Oct 25 14:16:36 2025 +0530
+
+    recursion complete
+
+[33mcommit f40501acc81f1eedda23cea16332b6260dc8b9ce[m
+Author: zishan <zishanza436@gmail.com>
+Date:   Mon Oct 20 15:06:26 2025 +0530
+
+    Quick sort complete
+
+[33mcommit c6f4b480b81731b30c664d128afa309f137e4bde[m
+Author: zishan <zishanza436@gmail.com>
+Date:   Sun Oct 19 20:43:28 2025 +0530
+
+    readme Updated
+
+[33mcommit c306aa4c597bc82f2502a2ee78bc13e6e08b79c4[m
+Author: zishan <zishanza436@gmail.com>
+Date:   Sun Oct 19 20:43:07 2025 +0530
+
+    readme Updated
+
+[33mcommit f29d0805158a28f75a79d02f8923b912b7103346[m
+Author: zishan <zishanza436@gmail.com>
+Date:   Sun Oct 19 20:42:25 2025 +0530
+
+    merge sort complete
+
+[33mcommit 72950195262d2d0d0745af9449833eec1174f958[m
+Author: zishan <zishanza436@gmail.com>
+Date:   Sun Oct 19 01:55:05 2025 +0530
+
+    recursion going on
+
+[33mcommit 9de37bcd3b5718e237df48bae67526d9054fd99a[m
+Author: zishan <zishanza436@gmail.com>
+Date:   Wed Oct 15 15:27:48 2025 +0530
+
+    readme Updated
+
+[33mcommit 2f07ac4fb015ed05b6105be1a06434a52ec5de27[m
+Author: zishan <zishanza436@gmail.com>
+Date:   Tue Oct 14 01:43:48 2025 +0530
+
+    readme added
+
+[33mcommit a435e47ea96c3a910ef84b11558c617375454204[m
+Author: zishan <zishanza436@gmail.com>
+Date:   Tue Oct 14 01:42:47 2025 +0530
+
+    road map added
+
+[33mcommit d23cd886c32917add312475d55bd8ba49ee5ac28[m
+Author: zishan <zishanza436@gmail.com>
+Date:   Tue Oct 14 01:38:07 2025 +0530
+
+    completed
+
+[33mcommit 202d49f03339c781fec9739f08a62b5c7686db26[m
+Author: zishan <zishanza436@gmail.com>
+Date:   Thu Oct 2 16:11:17 2025 +0530
+
+    seraching in 2d matrix II done
+
+[33mcommit b2d6513e486d7ad207d1004a960b809d47800820[m
+Author: zishan <zishanza436@gmail.com>
+Date:   Thu Oct 2 14:54:18 2025 +0530
+
+    added some prgrams
