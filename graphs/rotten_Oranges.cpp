@@ -36,7 +36,7 @@ public:
             for(int i= 0; i < 4 ; i++){
                 int nRow = row + dirRow[i];
                 int nCol = col + dirCol[i];
-                if(nRow >= 0 && nRow < rows && nCol >=0 && nCol < cols &&grid[nRow][nCol] == 1){
+                if(nRow >= 0 && nRow < rows && nCol >=0 && nCol < cols && grid[nRow][nCol] == 1){
                     grid[nRow][nCol] = 2;
                     q.push(make_pair(make_pair(nRow,nCol),tm+1));
                     cntFresh++;

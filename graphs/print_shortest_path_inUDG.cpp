@@ -23,7 +23,7 @@ vector<int> print_shortest_path_inUDG(vector<vector<int>>adjLs[],int src, int de
     dist[src] = 0;
     pq.push({0,src});
     for(int i =1; i < N;i++){
-        parent[i-1] = i;
+    parent[i-1] = i;
     }
     while(!pq.empty()){
         int dist_ = pq.top().first;

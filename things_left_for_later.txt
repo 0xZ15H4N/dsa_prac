@@ -1,3 +1,5 @@
 hashmap video (about the colliion chaining)
 backtrack (three videos)
 MST(prims and krushkal and advance graph topic kosaraju algorithm)
+segment tree
+binary lifting

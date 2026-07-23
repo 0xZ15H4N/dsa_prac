@@ -6,9 +6,9 @@ using namespace std;
 Quick Notes
 */
 
-void bfsinGraphs(vector<vector<int>>adj,vector<int>&ans,vector<int>vis){
+void bfsinGraphs(vector<vector<int>>adj,vector<int>&ans,vector<int>vis,int src){
     queue<int>q;
-    q.push(1);
+    q.push(src);
     while(!q.empty()){
         int front = q.front();
         q.pop();
@@ -22,6 +22,12 @@ void bfsinGraphs(vector<vector<int>>adj,vector<int>&ans,vector<int>vis){
 }
 
 int main(){
-// Your Driver Code
+    // if multiple components are there
+    vector<int>vis(10,0);
+    for(int i =0; i < 10;i++){
+        if(!vis[i]){
+            bfsinGraph()
+        }
+    }
     return 0;
 }

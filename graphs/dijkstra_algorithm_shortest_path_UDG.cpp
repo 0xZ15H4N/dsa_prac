@@ -36,7 +36,7 @@ vector<int> dijkstra_algorithm_shortest_path_UDG(vector<vector<int>>adjLs[],int 
 
             if(dist[adjNode] > dist_ + edgeWeight){
                 dist[adjNode] = dist_ + edgeWeight;
-                pq.push({dist[adjNode],adjNode});
+                pq.push({dist[adjNode],adjNode}); // if found new path with less steps than original then push to the queue
             }
         }
     }
